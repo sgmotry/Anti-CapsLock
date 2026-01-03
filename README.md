@@ -7,7 +7,7 @@ CapsLockは、一切使うことがない（個人差あり）のにキーボー
 ## Windows
 `Change Key`と`AutoHotKey`というソフトを使います。
 
-参考元 https://www.youtube.com/watch?v=7Ehaj8PIyvA&t=385s
+参考元 https://www.youtube.com/watch?v=7Ehaj8PIyvA
 
 ## Mac
 `Karabiner-Elements`というソフトを使います。
