@@ -1,0 +1,27 @@
+{
+    "description": "Disable sysdiagnose",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "period",
+                "modifiers": {
+                    "mandatory": ["command", "control", "option", "shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{ "key_code": "vk_none" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "comma",
+                "modifiers": {
+                    "mandatory": ["command", "control", "option"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{ "key_code": "vk_none" }],
+            "type": "basic"
+        }
+    ]
+}
