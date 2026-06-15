@@ -21,3 +21,25 @@ F13 & `;::Send("{Blind}^{Right}")
 
 F13 & q::Send("^+{Tab}")
 F13 & e::Send("^{Tab}")
+
+F13 & t::Send("#@")
+
+XButton1::
+{
+    static LastXButton1 := 0
+    if (A_TickCount - LastXButton1 < 200)
+        return
+    LastXButton1 := A_TickCount
+
+    Send("{XButton1}")
+}
+
+XButton2::
+{
+    static LastXButton2 := 0
+    if (A_TickCount - LastXButton2 < 200)
+        return
+    LastXButton2 := A_TickCount
+
+    Send("{XButton2}")
+}
